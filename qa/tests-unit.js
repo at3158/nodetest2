@@ -5,6 +5,7 @@ suite('Fortune cookie tests', function(){
 
     test('getFortune() should return a fortune', function(){
         expect(typeof fortune.getFortune() === 'string');
+   
     });
 
 });
